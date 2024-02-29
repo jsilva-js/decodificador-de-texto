@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./src/styles/style.css">
 
     <title>Decodificador de Texto</title>
@@ -11,17 +15,19 @@
 <body>
     <header>
         <div class="container">
-            <img src="" alt="">
+            <h1>Decodificador de Texto</h1>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <input type="text">
+            <div class="interactions">
+                <input type="text" name="input" value="Digite seu texto" class="text-input"/>
 
-            <div class="button-list">
-                <button></button>
-                <button></button>
+                <div class="button-list">
+                    <button class="button">Criptografar</button>
+                    <button class="button">Destriptografar</button>
+                </div>
             </div>
         </div>
         
