@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    width: 100%;
 }
 
 header {
@@ -21,4 +21,22 @@ header {
 .title {
     padding: 80px 24px 40px;
     color: #FFFFFF;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+.main-content {
+    display: flex;
+}
+
+.section-1 {
+    padding: 0 24px;
+}
+
+.text-area {
+    margin: 100px 80px 10px 0;
+    background-color: #D9D9D9;
+    border: none;
 }
