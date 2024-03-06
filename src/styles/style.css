@@ -4,39 +4,3 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
-header {
-    padding: 20px 0;
-}
-
-.container {
-    max-width: 1280px;
-    padding: 0 80px;
-    margin: 0 auto;
-}
-
-h1 {
-    color: #0A3871;
-    font-size: 2em;
-}
-
-.interactions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.text-input {
-    color: #0A3871;
-    width: 60%;
-    height: 4em;
-    padding: 0 20px;
-    border-radius: 6px;
-    margin: 40px 0;
-}
-
-.button {
-    color: #fff;
-    background-color: #0A3871;
-}
