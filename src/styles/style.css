@@ -6,7 +6,8 @@
 }
 
 .container {
-    padding: 0 300px;
+    max-width: 1440px;
+    padding: 0 200px;
     margin: 0 auto;
 }
 
@@ -32,11 +33,37 @@ main {
 }
 
 .section-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 0 24px;
 }
 
 .text-area {
+    padding: 10px 10px;
     margin: 100px 80px 10px 0;
     background-color: #D9D9D9;
+    border: none;
+}
+
+.buttons {
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.button-encrypt {
+    color: #FFFFFF;
+    background-color: #0A3871;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-decrypt {
+    color: #0A3871;
+    background-color: #D8DFE8;
+    padding: 10px 50px;
+    border-radius: 10px;
     border: none;
 }
