@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: "Courier Prime", monospace;
 }
+
+.container {
+    padding: 0 300px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #0A3871;
+}
+
+.title {
+    padding: 80px 24px 40px;
+    color: #FFFFFF;
+}
