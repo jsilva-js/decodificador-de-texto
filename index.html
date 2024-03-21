@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="./src/styles/style.css">
-
+    
     <title>Decodificador de Texto</title>
 </head>
 <body>
@@ -18,33 +18,31 @@
             <h1 class="title">Decodificador de Texto</h1>
         </div>
     </header>
-
+    
     <main>
         <div class="container">
             <div class="main-content">
                 <section class="section-1">
-                    <textarea class="text-area" cols="50" rows="24" placeholder="Digite seu texto"></textarea>
-            
-                    <div class="information">
+                    <textarea id="text-input" class="text-area" cols="50" rows="20" placeholder="Digite seu texto"></textarea>
+                    
+                    <div>
                         <h6>Apenas letras minúsculas e sem acento</h6>
                     </div>
-            
+                    
                     <div class="buttons">
                         <button class="button-encrypt">Criptografar</button>
                         <button class="button-decrypt">Descriptografar</button>
                     </div>
                 </section>
-            
+                
                 <section class="section-2">
-                    <textarea class="message-area" cols="20" rows="25"></textarea>
-
+                    <textarea id="message-output" class="message-area" cols="20" rows="20" readonly></textarea> 
                     <button class="button-copy">Copiar</button>
                 </section>
-
             </div>
         </div>
     </main>
-
+    
     <script src="./src/scripts/app.js"></script>
 </body>
 </html>

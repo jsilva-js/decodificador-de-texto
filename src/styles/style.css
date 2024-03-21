@@ -6,8 +6,8 @@
 }
 
 .container {
-    max-width: 1440px;
-    padding: 0 200px;
+    max-width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -17,79 +17,74 @@ body {
 
 header {
     background-color: #0A3871;
-    min-width: 1440px;
+    min-width: 100%;
 }
 
 .title {
-    padding: 80px 24px 40px;
+    padding: 80px 0 20px;
     color: #FFFFFF;
     font-size: 3em;
+    text-align: center;
 }
 
 main {
     background-color: #FFFFFF;
+    padding: 50px 0;
 }
 
 .main-content {
     display: flex;
-}
-
-.section-1 {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding: 0 24px;
+    gap: 20px;
 }
 
-.text-area {
-    padding: 10px 10px;
-    margin: 100px 80px 10px 0;
+.section-1,
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.input-label,
+.output-label {
+    font-size: 1.2em;
+    color: #0A3871;
+}
+
+.text-area,
+.message-area {
+    width: 100%;
+    padding: 20px;
     background-color: #D9D9D9;
     border: none;
 }
 
 .buttons {
-    padding: 20px 0;
-    display: flex;
-    gap: 12px;
-}
-
-.button-encrypt {
-    color: #FFFFFF;
-    background-color: #0A3871;
-    padding: 10px 50px;
-    border-radius: 10px;
-    border: none;
-    font-size: 1em;
-}
-
-.button-decrypt {
-    color: #0A3871;
-    background-color: #D8DFE8;
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: 1px solid #0A3871;
-    font-size: 1em;
-}
-
-.section-2 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-top: 80px;
-    gap: 50px;
+    gap: 10px;
+    width: 100%;
 }
 
-.message-area {
-    background-color: #D9D9D9;
+.button-encrypt,
+.button-decrypt,
+.button-copy {
+    color: #FFFFFF;
+    background-color: #0A3871;
+    padding: 10px 30px;
+    border-radius: 10px;
     border: none;
+    font-size: 1em;
+    width: 100%;
 }
 
 .button-copy {
     color: #0A3871;
     background-color: #FFFFFF;
-    padding: 10px 50px;
-    border-radius: 10px;
     border: 1px solid #0A3871;
-    font-size: 1em;
+}
+
+.button-copy:hover {
+    background-color: #F0F0F0;
 }
