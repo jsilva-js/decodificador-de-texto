@@ -6,17 +6,17 @@ Você pode acessar o projeto [aqui](https://jsilva-js.github.io/decodificador-de
 
 ## Funcionalidades
 
-- Criptografar texto: Insira o texto desejado e clique no botão "Criptografar" para criptografar o texto.
-- Descriptografar texto: Insira o texto criptografado e clique no botão "Descriptografar" para descriptografar o texto.
-- Copiar texto: Após criptografar ou descriptografar um texto, você pode clicar no botão "Copiar" para copiar o texto resultante para a área de transferência.
+- **Criptografar texto:** Insira o texto desejado e clique no botão "Criptografar" para criptografar o texto.
+- **Descriptografar texto:** Insira o texto criptografado e clique no botão "Descriptografar" para descriptografar o texto.
+- **Copiar texto:** Após criptografar ou descriptografar um texto, você pode clicar no botão "Copiar" para copiar o texto resultante para a área de transferência.
 
 ## Como usar
 
 1. Abra o [Decodificador de Texto](https://jsilva-js.github.io/decodificador-de-texto/) no seu navegador.
 2. Digite o texto que deseja criptografar no campo "Digite seu texto".
 3. Clique no botão "Criptografar" para criptografar o texto.
-4. O texto criptografado será exibido no campo "Texto Decodificado".
-5. Para descriptografar o texto, copie o texto criptografado e cole-o no campo "Texto Decodificado".
+4. O texto criptografado será exibido no campo "Mensagem Decodificada".
+5. Para descriptografar o texto, copie o texto criptografado e cole-o no campo "Mensagem Decodificada".
 6. Clique no botão "Descriptografar" para descriptografar o texto.
 7. O texto descriptografado será exibido no campo "Digite seu texto".
 
