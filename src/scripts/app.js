@@ -56,7 +56,6 @@ function setup() {
     copyButton.addEventListener('click', function () {
         messageOutput.select();
         document.execCommand('copy');
-        alert('Texto copiado para a área de transferência!');
     });
 }
 
