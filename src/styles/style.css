@@ -77,6 +77,13 @@ main {
     border: none;
     font-size: 1em;
     width: 100%;
+    cursor: pointer;
+}
+
+.button-decrypt {
+    color: #0A3871;
+    background-color: #c1d0e4;
+    border: 1px solid #0A3871;
 }
 
 .button-copy {
@@ -91,30 +98,30 @@ main {
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 0 10px; /* Reduzindo o padding para telas menores */
+        padding: 0 10px;
     }
 
     .title {
-        font-size: 2em; /* Reduzindo o tamanho do título para telas menores */
+        font-size: 2em;
     }
 
     .main-content {
-        flex-direction: column; /* Alterando a direção do flex container para empilhamento em telas menores */
+        flex-direction: column;
     }
 
     .section-1,
     .section-2 {
-        width: 100%; /* Garantindo que as seções ocupem a largura total da tela em telas menores */
+        width: 100%;
     }
 
     .buttons {
-        flex-direction: column; /* Alterando a direção dos botões para empilhamento em telas menores */
+        flex-direction: column;
     }
 
     .button-encrypt,
     .button-decrypt,
     .button-copy {
-        width: 100%; /* Garantindo que os botões ocupem a largura total da tela em telas menores */
-        margin-bottom: 10px; /* Adicionando espaço entre os botões em telas menores */
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
