@@ -88,3 +88,33 @@ main {
 .button-copy:hover {
     background-color: #F0F0F0;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Reduzindo o padding para telas menores */
+    }
+
+    .title {
+        font-size: 2em; /* Reduzindo o tamanho do título para telas menores */
+    }
+
+    .main-content {
+        flex-direction: column; /* Alterando a direção do flex container para empilhamento em telas menores */
+    }
+
+    .section-1,
+    .section-2 {
+        width: 100%; /* Garantindo que as seções ocupem a largura total da tela em telas menores */
+    }
+
+    .buttons {
+        flex-direction: column; /* Alterando a direção dos botões para empilhamento em telas menores */
+    }
+
+    .button-encrypt,
+    .button-decrypt,
+    .button-copy {
+        width: 100%; /* Garantindo que os botões ocupem a largura total da tela em telas menores */
+        margin-bottom: 10px; /* Adicionando espaço entre os botões em telas menores */
+    }
+}
