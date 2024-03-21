@@ -17,6 +17,7 @@ body {
 
 header {
     background-color: #0A3871;
+    min-width: 1440px;
 }
 
 .title {
