@@ -32,7 +32,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue se enc
 
 ## Captura de Tela
 
-![Captura de tela do Decodificador de Texto](./src/images/interace.png)
+![Captura de tela do Decodificador de Texto](./src/images/interface.png)
 
 ## Autor
 
