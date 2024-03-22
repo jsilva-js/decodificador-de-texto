@@ -52,12 +52,18 @@ main {
     color: #0A3871;
 }
 
-.text-area,
-.message-area {
+.text-area {
     width: 100%;
     padding: 20px;
     background-color: #D9D9D9;
     border: none;
+}
+
+.message-area {
+    width: 100%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-color: #0A3871;
 }
 
 .buttons {
